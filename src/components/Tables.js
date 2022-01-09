@@ -1,19 +1,19 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Tables = ({details,searchElement}) => {
+const Tables = ({details,searchElement, Sorting}) => {
     return (
         <div>
       
-        <table class="table">
-  <thead>
+  <table class="table">
+  <thead className='table-light'>
     <tr>
-      <th scope="col">Sr No</th>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
-      <th scope="col">Age </th>
-      <th scope="col">Email </th>
-      <th scope="col">Web </th>
+      <th scope="col" onClick={() =>Sorting("id")} >Sr No</th>
+      <th scope="col" onClick={() =>Sorting("first_name")} >First Name</th>
+      <th scope="col" onClick={() =>Sorting("last_name")}>Last Name</th>
+      <th scope="col" onClick={() =>Sorting("age")}>Age </th>
+      <th scope="col" onClick={() =>Sorting("email")}>Email </th>
+      <th scope="col" onClick={() =>Sorting("email")}>Web </th>
     </tr>
   </thead>
   <tbody>

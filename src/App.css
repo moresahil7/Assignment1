@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+  margin: 3rem 0 1rem 0 ;
 }
 
 .form-search label{
@@ -20,5 +20,12 @@ input[type=search]{
   border: 2px solid black;
   outline: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+.icon{
+  margin-left: 1rem;
+}
+
+.table-light th{
   cursor: pointer;
 }
