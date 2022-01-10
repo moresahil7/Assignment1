@@ -13,8 +13,7 @@ To get started  simply clone this `User-Interface` repository in your machine an
 
 Clone `User-Interface` repository uing git:
 ```bash
-https://github.com/moresahil7/Laptop-Store
-cd Laptop-Store
+https://github.com/moresahil7/User-Interface
 ```
 Install dependencies with this command
 ```bash
@@ -27,6 +26,3 @@ npm start
 
 ### Tech Stack used
 * React JS
-* Express JS
-* Node JS
-* Mongo DB
