@@ -1,6 +1,14 @@
+*{
+  margin: 0rem 0.5rem;
+}
+
+body{
+  /* background-color: ; */
+}
 .App {
   text-align: center;
 }
+
 
 .form-search{
   display: flex;

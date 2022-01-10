@@ -3,11 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom';
+import Details from './components/Details';
+
+import Redirect from 'react-dom'
+
+
+
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+<Router>
+<Routes>
+<Route path="/users" element={<App/>} />
+
+<Route path="/users/:id" element={<Details />} />
+</Routes>
+</Router>,
   document.getElementById('root')
 );
 
